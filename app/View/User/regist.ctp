@@ -22,7 +22,7 @@ button {
 </style>
 <form class="formregist" method="post" action="/hust-Tuanad/User/regist">
 	<div class="tree">
-		<h1>Regist</h1>
+		<h1>Regist:</h1>
 		<p>Please fill in this form to create an account.</p>
 		<label><b> Name : </b></label><br><input  placeholder="Enter Name" type="text" name="name" required/><br />
 		<label><b> E-mail : </b></label><br><input placeholder="Enter E-mail "type="email" name="email" required/><br />
