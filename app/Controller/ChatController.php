@@ -17,10 +17,10 @@ class ChatController extends AppController
 		$feeds = $this->tFeed->find('all');
 			$this->set('t_feeds', $feeds);
 	}
-  
+
 	function edit($id) {
 		if($this->request->is('post')){
-			$this->tFeed->read(null, $id);//tro den ban ghi co id
+			$this->tFeed->read(null, $id);
 			$this->tFeed->set(array(
 				'name' => $this->request->data('name'),
 				'message' => $this->request->data('message'),
@@ -39,5 +39,17 @@ class ChatController extends AppController
 		$this->autoRender = false;
 		$this->tFeed->delete($id);
 		$this->redirect('feed');
+	}
+
+	function image(){
+       if($this->request->is('post')){
+          $this->tFeed->creat();
+          if($this->tFeed->save($this->request->data)){
+             $this->Session->setFlash(__(''))    
+
+          }
+       }
+
+
 	}
 }

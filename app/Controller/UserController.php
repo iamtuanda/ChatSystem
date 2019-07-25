@@ -18,29 +18,29 @@ class UserController extends AppController {
 
 	function login() { 
 		if ($this->request->is('post')) { 
-			$Email = $this->request->data('email');
-			$Password = $this->request->data('password');
+			$email = $this->request->data('email');
+			$password = $this->request->data('password');
 
-			if ($this->checkLogin($Email, $Password)) {
+			if ($this->checkLogin($email, $password)) {
 				$user = $this->tUser->find("first",array(
-					'conditions'=>array('tUser.email'=> $Email)
+					'conditions'=>array('tUser.email'=> $email)
 				));
 
 				$name = $user['tUser']['name'];
-				$this->Session->write("e-mail", $Email);
+				$this->Session->write("e-mail", $email);
 				$this->Session->write("name", $name);
-				$this->redirect("/Chat/feed");//đăng nhập thành công chuyển sang chat
+				$this->redirect("/Chat/feed");
 			} else {        
 				$this->redirect("/User/login");
 			}
 		}
 	}
 
-	function checkLogin($email,$Password) {
+	function checkLogin($email,$password) {
 		$is_user = $this->tUser->find('first', array(
 			'conditions' => array(
 				'tUser.email' => $email, 
-				'tUser.password' => $Password
+				'tUser.password' => $password
 			)
 		));
 
@@ -54,6 +54,6 @@ class UserController extends AppController {
 	function logout() {
 		$this->Session->destroy("name");
 		$this->Session->destroy("e-mail");
-		$this->redirect("/User/login"); //chuyển trang login
+		$this->redirect("/User/login"); 
 	}
 }

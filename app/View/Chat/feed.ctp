@@ -8,8 +8,10 @@
 		<input type="text" name="data[tFeed][name]" value="<?php echo $this->Session->read('name'); ?>"readonly><br>
 		<label>Message</label>:<br>
 		<input type="text" name="data[tFeed][message]">
-		<br><br>
+		<br>
 		<input class="btn" type="submit" value="Post">
+		<input type = "file" value = "Photo" name = "file">
+		<!-- <button class="photobtn"> Photo </button> -->
 		<span> <a href="/hust-Tuanad/User/login"> Logout </a></span>
 	</form>
 
@@ -18,6 +20,7 @@
 			<tr>
 				<td><?php echo $value['tFeed']['name'];?></td> 
 				<td><?php echo $value['tFeed']['message'];?></td>
+				<td><?php echo $value['tFeed']['image_file_name'];?></td>				
 				<td><?php echo $value['tFeed']['create_at'];?></td>
 				<td><?php echo $value['tFeed']['update_at'];?></td>
 				<?php if($this->Session->read('name') == $value['tFeed']['name']) { ?>
