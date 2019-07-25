@@ -5,9 +5,17 @@ class ChatController extends AppController
 	public $uses = array("tFeed");
 	function feed() {
 		if ($this->request->is('post')) {
+			$image_file_name = '';
+			$file = $_FILES['image_file_name'];
+			if ($file['tmp_name']) {
+				move_uploaded_file($file['tmp_name'], WWW_ROOT . '/img/' . $file['name']);
+				$image_file_name = $file['name'];
+			}
+
 			$this->tFeed->set(array(
 				'name' => $this->request->data('name'),
 				'message' => $this->request->data('message'),
+				'image_file_name' => $image_file_name,
 				'create_at' => date('Y-m-d H:i:sa') 
 			));
 
@@ -15,7 +23,7 @@ class ChatController extends AppController
 		}
 
 		$feeds = $this->tFeed->find('all');
-			$this->set('t_feeds', $feeds);
+		$this->set('t_feeds', $feeds);
 	}
 
 	function edit($id) {
@@ -39,17 +47,5 @@ class ChatController extends AppController
 		$this->autoRender = false;
 		$this->tFeed->delete($id);
 		$this->redirect('feed');
-	}
-
-	function image(){
-       if($this->request->is('post')){
-          $this->tFeed->creat();
-          if($this->tFeed->save($this->request->data)){
-             $this->Session->setFlash(__(''))    
-
-          }
-       }
-
-
 	}
 }

@@ -16,8 +16,8 @@ class UserController extends AppController {
 		}
 	}
 
-	function login() { 
-		if ($this->request->is('post')) { 
+	function login() {
+		if ($this->request->is('post')) {
 			$email = $this->request->data('email');
 			$password = $this->request->data('password');
 
@@ -30,7 +30,7 @@ class UserController extends AppController {
 				$this->Session->write("e-mail", $email);
 				$this->Session->write("name", $name);
 				$this->redirect("/Chat/feed");
-			} else {        
+			} else {
 				$this->redirect("/User/login");
 			}
 		}
@@ -39,7 +39,7 @@ class UserController extends AppController {
 	function checkLogin($email,$password) {
 		$is_user = $this->tUser->find('first', array(
 			'conditions' => array(
-				'tUser.email' => $email, 
+				'tUser.email' => $email,
 				'tUser.password' => $password
 			)
 		));
