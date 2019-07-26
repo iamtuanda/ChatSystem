@@ -7,8 +7,13 @@ class ChatController extends AppController
 		if ($this->request->is('post')) {
 			$image_file_name = '';
 			$file = $_FILES['image_file_name'];
-			if ($file['tmp_name']) {
+			$ext = substr(strtolower(strrchr($file['name'], '.')), 1);
+			$arr_ext = array('jpg', 'jpeg', 'gif','png');
+			if (in_array($ext, $arr_ext)) {
 				move_uploaded_file($file['tmp_name'], WWW_ROOT . '/img/' . $file['name']);
+				$image_file_name = $file['name'];
+			} else {
+				move_uploaded_file($file['tmp_name'], WWW_ROOT . '/video/upload/' . $file['name']);
 				$image_file_name = $file['name'];
 			}
 

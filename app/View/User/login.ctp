@@ -26,7 +26,7 @@ button {
 .registform {
 	content: "";
 	clear: both;
-	display: table;  
+	display: table;
 }
 
 .loginbtn, .registbtn {

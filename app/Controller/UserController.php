@@ -36,7 +36,7 @@ class UserController extends AppController {
 		}
 	}
 
-	function checkLogin($email,$password) {
+	function checkLogin($email, $password) {
 		$is_user = $this->tUser->find('first', array(
 			'conditions' => array(
 				'tUser.email' => $email,
