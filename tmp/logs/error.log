@@ -1,0 +1,424 @@
+2019-07-26 09:46:49 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:46:50 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:48:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:48:43 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:49:39 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:49:44 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:53:39 Error: Fatal Error (4): syntax error, unexpected '.' in [/www/htdocs/hust-Tuanad/app/Controller/ChatController.php, line 11]
+2019-07-26 09:53:39 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /hust-Tuanad/Chat/delete/298
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 11, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 11, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 09:53:57 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 09:59:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:15:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:20:38 Error: Fatal Error (4): syntax error, unexpected '{' in [/www/htdocs/hust-Tuanad/app/Controller/ChatController.php, line 17]
+2019-07-26 10:20:38 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 17, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 17, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 10:28:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:28:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:30:38 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/uploadHer%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:30:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:31:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:33:39 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:33:39 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/6.jpg
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:33:39 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/6.jpg
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:39:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:39:13 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:40:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:40:46 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:40:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:49:36 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:49:51 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/img/Her%20Plus.mp4
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:55:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/6.jpg
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:55:26 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/6.jpg
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:56:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/6.jpg
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 10:56:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/6.jpg
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 11:47:19 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 40]
+2019-07-26 11:47:19 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:47:57 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 40]
+2019-07-26 11:47:57 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:48:41 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 40]
+2019-07-26 11:48:41 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:50:04 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 40]
+2019-07-26 11:50:04 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:50:40 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 31]
+2019-07-26 11:50:40 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 31, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:51:37 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 40]
+2019-07-26 11:51:37 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:52:53 Error: Fatal Error (4): syntax error, unexpected '}' in [/www/htdocs/hust-Tuanad/app/View/Chat/feed.ctp, line 40]
+2019-07-26 11:52:53 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/www/htdocs/hus...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/www/htdocs/hus...', 40, Array)
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-07-26 11:53:27 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /hust-Tuanad/app/webroot/video/upload/%3Cpre%20class=
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-07-26 13:46:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+Request URL: /hust-Tuanad/Chat/feed
+Stack Trace:
+#0 /www/htdocs/hust-Tuanad/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /www/htdocs/hust-Tuanad/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `si...', Array)
+#2 /www/htdocs/hust-Tuanad/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `si...')
+#3 /www/htdocs/hust-Tuanad/lib/Cake/Model/Model.php(1942): DboSource->create(Object(tFeed), Array, Array)
+#4 /www/htdocs/hust-Tuanad/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /www/htdocs/hust-Tuanad/app/Controller/ChatController.php(27): Model->save(Array)
+#6 [internal function]: ChatController->feed()
+#7 /www/htdocs/hust-Tuanad/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(ChatController), Array)
+#8 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /www/htdocs/hust-Tuanad/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ChatController), Object(CakeRequest))
+#10 /www/htdocs/hust-Tuanad/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
